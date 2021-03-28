@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+:root {
+  --color-text: #595959;
+  --color-feature: #3498DB;
+}
+
+.promotion-card {
+  width: 78%;
+  max-width: 90%;
+  margin: 1.2rem auto;
+  padding: 1rem;
+  border: 1px solid #C3C3C3;
+  border-radius: 8px;
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: flex-start;
+  transition: 0.5s;
+}
+
+.promotion-card__image {
+  width: 12rem;
+  margin-right: 1.5rem;
+}
+.promotion-card:hover{
+  width: 80%;
+}
+
+.promotion-card__title {
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+.promotion-card__price {
+  color: var(--color-text);
+  font-size: 3rem;
+  color: var(--color-feature);
+}
+
+.promotion-card__comment{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.promotion-card__footer{
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.promotion-card__comments-count{
+  font-size: 1rem;
+  margin-left: auto;
+  color: var(--color-feature);
+}
+
+.promotion-card__link {
+  margin-left: 1.5rem;
+  padding: 0.35rem 1rem;
+  text-align: center;
+  border: 1px solid var(--color-feature);
+  border-radius: 5px;
+  color: var(--color-feature);
+  text-decoration: none;
+}
+
+.promotion-card__link:hover{
+  color: var(--color-text);
+}
